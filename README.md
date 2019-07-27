@@ -1,1 +1,1 @@
-# selected-text-to-speech
+# Extension to speak selected text
