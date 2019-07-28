@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Selected Text To Speech configuration</title>
+	<script src="./jquery-3.4.1.min.js"></script>
+	<script src="./configPopup.js"></script>
+</head>
+
+<body>
+	<div>
+		<label>Speed :</label> <input type="range" id="rate" min="0.1" max="1.0" step="0.1">
+		<div>
+			<label>Voice Gender : </label><br>
+			<input type="radio" name="gender" id="male" value="male"> Male
+			<input type="radio" name="gender" id="female" value="female"> Female
+		</div>
+		<div>
+			<label>Volume :</label><input type="range" id="volume" min="0" max="1" step="0.1">
+		</div>
+		<input type="submit" id="submit" value="Submit" />
+		<!-- <input type="button" id="reset" value="Reset" /> -->
+	</div>
+	<!-- <div id="isPlaying">
+		<input type="button" id="pause" value="Pause" />
+		<input type="button" id="resume" value="Resume" />
+	</div> -->
+
+</body>
+
+</html>
